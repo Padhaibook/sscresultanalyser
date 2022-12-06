@@ -1,4 +1,6 @@
-st.title("SSC Result analyser")
+import streamlit as st
+
+st.title('SSC Result analyser')
 
 Q = st.slider('How many questions you attemted in the entire paper?', 0,100,0,1)
 
